@@ -48,6 +48,70 @@ a {
   transition: box-shadow 0.5s ease;
 }
 
+h1, h2, h3 {
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: var(--secondary-colour);
+  box-shadow: inset 0 -2.5rem 0 var(--primary-colour-trs);
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--secondary-colour);
+}
+
+p,
+label {
+  font-size: 1.8rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+
+  color: var(--secondary-colour);
+}
+
+li,
+input {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.white {
+  color: var(--white);
+  box-shadow: none;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.blue {
+  color: var(--primary-colour);
+}
+
+.underline {
+  box-shadow: inset 0 -1.5rem 0 var(--primary-colour-trs);
+}
+
+.social_icons {
+  font-size: 3rem;
+  padding: 0vh;
+}
+
 `;
 
 export default GlobalStyle;

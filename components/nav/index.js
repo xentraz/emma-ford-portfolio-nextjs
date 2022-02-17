@@ -13,12 +13,7 @@ const Navigation = () => {
       id: 2, 
       title: 'Portfolio', 
       link: '/portfolio'
-    },
-    { 
-      id: 3, 
-      title: 'Contact', 
-      link: '/contact', 
-     },
+    }
   ];
 
   // const [pageURL, setPageURL] = useState(0);

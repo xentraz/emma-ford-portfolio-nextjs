@@ -1,14 +1,13 @@
 // React
-// import React from 'react';
+import React from 'react';
 import styles from '../styles/Home.module.css';
-// import styled from 'styled-components';
+
 // Components
 import Head from 'next/head';
-// import Heading from '../components/Heading/Heading';
-import Header from '../components/Header';
 import Body from '../components/Body/Body';
-import Main from '../components/Main/Main';
-import Footer from '../components/Footer/Footer';
+import PortfolioHero from '../components/porfolioHero';
+import PortfolioContent from '../components/porfolio';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
@@ -18,9 +17,11 @@ export default function Home() {
       <title>Emma Thurmer Portfolio</title>
     </Head>
       <Body>
-        <Header/>
-        <Main></Main>
-        <Footer></Footer>
+        <PortfolioHero/>
+        <main>
+          <PortfolioContent/>
+        </main>
+        <Footer/>
       </Body>
     </>
   );

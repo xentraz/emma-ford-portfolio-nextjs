@@ -2,13 +2,12 @@ import styled from "styled-components";
 
 export const NavStyle = styled.div`
   .header-menu {
-    z-index: 9;
-    position: absolute;
+    z-index: 99; 
     background: transparent;
 
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: flex-end;
 
     height: fit-content;
     width: 100%;

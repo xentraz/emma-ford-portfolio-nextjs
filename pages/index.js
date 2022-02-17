@@ -1,14 +1,13 @@
 // React
 import React from 'react';
-import styles from '../styles/Home.module.css';
-// import styled from 'styled-components';
+// import styles from '../styles/Home.module.css';
+
 // Components
 import Head from 'next/head';
-import Navigation from '../components/nav';
-import HeroBanner from '../components/hero';
 import Body from '../components/Body/Body';
-import Main from '../components/Main/Main';
-import Footer from '../components/Footer/Footer';
+import IndexHero from '../components/indexHero';
+import HomeMain from '../components/homeMain';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
@@ -18,10 +17,9 @@ export default function Home() {
       <title>Emma Thurmer Portfolio</title>
     </Head>
       <Body>
-        <HeroBanner/>
-        <Navigation/>
-        <Main></Main>
-        <Footer></Footer>
+        <IndexHero/>
+        <HomeMain/>
+        <Footer/>
       </Body>
     </>
   );
