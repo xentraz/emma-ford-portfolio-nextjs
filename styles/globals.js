@@ -61,7 +61,7 @@ h1 {
 h2 {
   font-size: 3.5rem;
   font-weight: 300;
-  color: var(--secondary-colour);
+  color: #222222;
   box-shadow: inset 0 -2.5rem 0 #0E899F6c;
 }
 
