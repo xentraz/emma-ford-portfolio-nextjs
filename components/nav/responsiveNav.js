@@ -44,7 +44,11 @@ const testScroll = () => {
     return navBar ? 'active' : ''
   }
 }
-// Can't make it work ^
+// Can't make it work ^ 
+// want the navbar to have a black background when you scroll
+// past a certain point, (which is fine) but when you expand the nav, 
+// it stays 60px and not 100vh because I can't figure out how to 
+// remove the 'active' class from the navbar when you open the nav
 
   return (
     <>
