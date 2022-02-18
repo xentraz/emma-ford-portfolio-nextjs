@@ -14,7 +14,7 @@ min-height: 40vh;
 
 .project_headingL,
 .project_headingR {
-  width: 95%;
+  width: 90%;
 
   display: inline-flex;
 }

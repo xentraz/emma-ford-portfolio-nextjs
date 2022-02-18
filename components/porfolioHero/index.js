@@ -1,5 +1,6 @@
 import { HeroContainer } from '../indexHero/hero.style';
 import Navigation from '../nav';
+import ResponsiveNav from '../nav/responsiveNav';
 import { CTAStyles } from '../CTA/cta.style';
 
 const PortfolioHero = () => {
@@ -9,6 +10,7 @@ const PortfolioHero = () => {
       {/* Hero Grid */}
       <div className="hero-nav" id="overlay">
         <Navigation/>
+        <ResponsiveNav/>
       </div> 
       {/* Hero BgImg */}
       <div 
@@ -37,9 +39,9 @@ const PortfolioHero = () => {
           <CTAStyles>
             <a 
             href="#"
-            onClick={() => window.location.href = '/contact'}
+            onClick={() => window.location.href = '/'}
             >
-            Contact Me
+            About Me
             </a>
           </CTAStyles>
       </div>

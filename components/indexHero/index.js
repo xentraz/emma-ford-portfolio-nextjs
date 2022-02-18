@@ -1,6 +1,7 @@
 import { HeroContainer } from './hero.style';
 import Navigation from '../nav';
 import { CTAStyles } from '../CTA/cta.style';
+import ResponsiveNav from '../nav/responsiveNav';
 
 const IndexHero = () => {
   return (
@@ -9,6 +10,7 @@ const IndexHero = () => {
       {/* Hero Grid */}
       <div className="hero-nav" id="overlay">
         <Navigation/>
+        <ResponsiveNav/>
       </div> 
       {/* Hero BgImg */}
       <div 
@@ -17,16 +19,6 @@ const IndexHero = () => {
         alt="Picture of Emma Thurmer"
         >
       </div>  
-      {/* Hero Logo */}
-      <div className="hero-logo">
-        <div 
-          onClick={() => window.location.href = '/'}
-          className="hero-logo-img"
-          style={{backgroundImage: `url(/img/logo.png)`}}
-          alt="Logo: </et>"
-          >
-        </div> 
-      </div>
       {/* Hero Text */}
       <div className="hero-text">
           <div className="hero-text-container">

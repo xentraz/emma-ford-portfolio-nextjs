@@ -77,6 +77,43 @@ export const SkillsStyle = styled.div`
         width: fit-content;
       }
     }
+
+    @media (max-width: 960px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 8fr;
+      
+      &-skills {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-column-gap: 0.2em;
+
+        &-soft, &-hard, &-software {
+          border-top: 2px solid var(--primary-colour);
+          border-right: none;
+
+          padding: 0.5em;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        &-soft {
+          grid-column: 1/1;
+          grid-row: 1/1;
+        }
+
+        &-hard {
+          grid-column: 1/1;
+          grid-row: 2/2;
+        }
+
+        &-software {
+          grid-column: 1/1;
+          grid-row: 3/3;  
+      }
+    }
   }
 }
 `;

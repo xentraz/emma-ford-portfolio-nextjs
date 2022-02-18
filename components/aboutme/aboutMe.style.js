@@ -50,6 +50,27 @@ export const AboutMeStyle = styled.div`
         -moz-box-shadow: 12px -12px 0px 3px var(--secondary-colour);
       }
     }
+
+    @media (max-width: 750px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+
+      &-text {
+        grid-column: 1/1;
+        grid-row: 1/1;
+
+        display: flex;
+        gap: 0.2rem;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      &-img {
+        grid-column: 1/1;
+        grid-row: 2/2;
+      }
+    }
   }
 `;
 

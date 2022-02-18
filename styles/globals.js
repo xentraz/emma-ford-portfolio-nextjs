@@ -112,6 +112,96 @@ input {
   padding: 0vh;
 }
 
+
+@media screen and (max-width: 850px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    box-shadow: inset 0 -1.6rem 0 var(--primary-colour-trs);
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    box-shadow: inset 0 -1.2rem 0 var(--primary-colour-trs);
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    box-shadow: inset 0 -1rem 0 var(--primary-colour-trs);
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p,
+  label {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  h2 {
+    font-size: 1.8rem;
+    box-shadow: inset 0 -1rem 0 var(--primary-colour-trs);
+  }
+}
+
 `;
 
 export default GlobalStyle;

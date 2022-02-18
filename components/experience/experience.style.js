@@ -27,6 +27,7 @@ export const ExperienceStyle = styled.div`
       left: 50%;
       margin-left: -3px;
     }
+
     ul {
       margin: 0px;
       padding: 0px;
@@ -61,12 +62,28 @@ export const ExperienceStyle = styled.div`
 
     & .left {
       left: 0;
+
+      @media (max-width: 750px) {
+        left: 0;
+        width: 100%;
+        &::after {
+          left: 0px;
+        }
+      }
     }
 
     & .right {
       left: 50%;
       &::after {
-        left: -20px;
+      left: -20px;
+      }
+
+      @media (max-width: 750px) {
+        left: 0;
+        width: 100%;
+        &::after {
+          left: 0px;
+        }
       }
     }
 
@@ -75,6 +92,13 @@ export const ExperienceStyle = styled.div`
       background-color: white;
       position: relative;
       border-radius: 6px;
+    }
+
+    @media (max-width: 750px) {
+      &::after {
+        left: 0;
+        margin-left: -10px;
+      }
     }
   }
 }

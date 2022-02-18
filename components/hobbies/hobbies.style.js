@@ -52,4 +52,33 @@ background-color: var(--primary-bkg);
   }
 }
 
+@media screen and (max-width: 600px) {
+  .hobbies {
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    background-color: var(--light-grey);
+
+    padding-bottom: 2vh;
+  }
+
+  .hobbies_list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .hobbies_cards {
+    height: 30vh;
+    width: 60%;
+
+    margin: 0vh 1vw 1vh 0vw;
+  }
+
+  .hobbies_cards img {
+    width: 80%;
+  }
+}
+
 `;

@@ -15,5 +15,15 @@ export const CTAStyles = styled.div`
     &:hover{
       box-shadow: inset 0 -2.7rem 0 var(--primary-colour-trs);
     }
+
+    @media (max-width: 550px) {
+      font-size: 3rem;
+    }
+    @media (max-width: 550px) {
+      font-size: 2.5rem;
+    }
+    @media (max-width: 330px) {
+      font-size: 2rem;
+    }
   }
  `;

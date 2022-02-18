@@ -6,7 +6,7 @@ const PortfolioContent = () => {
     <>
     <PortfolioStyle>
     <div className="project_list">
-    <div className="project">
+      <div className="project">
         <div className="project_headingR">
           <h2 className="static">Semester Project</h2>
         </div>
