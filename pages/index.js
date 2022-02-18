@@ -4,10 +4,11 @@ import React from 'react';
 
 // Components
 import Head from 'next/head';
-import Body from '../components/Body/Body';
 import IndexHero from '../components/indexHero';
 import HomeMain from '../components/homeMain';
 import Footer from '../components/footer';
+// Styles
+import { Body } from '../components/body/Body.style';
 
 export default function Home() {
   return (

@@ -4,10 +4,11 @@ import styles from '../styles/Home.module.css';
 
 // Components
 import Head from 'next/head';
-import Body from '../components/Body/Body';
 import PortfolioHero from '../components/porfolioHero';
 import PortfolioContent from '../components/porfolio';
 import Footer from '../components/footer';
+// Styles
+import { Body } from '../components/body/Body.style';
 
 export default function Home() {
   return (
