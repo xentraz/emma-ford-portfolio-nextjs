@@ -7,15 +7,16 @@ export const NavStyle = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  
+
   & .logo {
+    // NOTE: How are you keeping track of z-index used throughout your app
     z-index: 99;
     cursor: pointer;
-  
+
     &-img {
       width: 250px;
       height: 100px;
-  
+
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -23,7 +24,7 @@ export const NavStyle = styled.div`
   }
 
   .header-menu {
-    z-index: 99; 
+    z-index: 99;
     background: transparent;
 
     display: flex;
@@ -38,7 +39,7 @@ export const NavStyle = styled.div`
         box-shadow: inset 0 -1.15rem 0 var(--primary-colour-trs);
       }
     }
-    
+
     & .isActive {
       box-shadow: inset 0 -2.7rem 0 var(--primary-colour-trs);
       &:hover {

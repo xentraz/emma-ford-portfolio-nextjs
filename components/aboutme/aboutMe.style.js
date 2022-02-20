@@ -5,7 +5,8 @@ export const AboutMeStyle = styled.div`
   margin-bottom: 2vh;
   background-color: var(--white);
 
-  & .aboutMe {
+  // NOTE: Don't need &
+  .aboutMe {
     width: 90%;
     margin: 2vh auto;
     height: fit-content;
@@ -42,7 +43,7 @@ export const AboutMeStyle = styled.div`
       justify-content: center;
       align-items: flex-end;
 
-      overflow:visible;
+      overflow: visible;
 
       &-wrapper {
         box-shadow: 12px -12px 0px 3px var(--secondary-colour);
@@ -51,6 +52,7 @@ export const AboutMeStyle = styled.div`
       }
     }
 
+    // NOTE: You should be coding for mobile first.
     @media (max-width: 750px) {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
@@ -73,4 +75,3 @@ export const AboutMeStyle = styled.div`
     }
   }
 `;
-
