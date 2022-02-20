@@ -60,6 +60,7 @@ export const ExperienceStyle = styled.div`
       }
     }
 
+    // NOTE: Don't need this if you used flex box;
     & .left {
       left: 0;
 
@@ -103,4 +104,3 @@ export const ExperienceStyle = styled.div`
   }
 }
 `;
-
