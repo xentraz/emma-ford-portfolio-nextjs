@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SkillsStyle = styled.div`
   height: fit-content;
   margin-bottom: 1em;
-  background-color: var(--primary-bkg);
+  background-color: var($primary-bkg);
 
   & .container {
     width: 90%;
@@ -24,7 +24,7 @@ export const SkillsStyle = styled.div`
       }
       
       &-soft, &-hard {
-        border-right: 2px solid var(--primary-colour);
+        border-right: 2px solid var($primary-colour);
       }
 
       &-soft, &-hard, &-software {
@@ -89,7 +89,7 @@ export const SkillsStyle = styled.div`
       grid-column-gap: 0.2em;
 
         &-soft, &-hard, &-software {
-          border-top: 2px solid var(--primary-colour);
+          border-top: 2px solid var($primary-colour);
           border-right: none;
 
           padding: 0.5em;

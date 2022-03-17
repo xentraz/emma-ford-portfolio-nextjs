@@ -1,7 +1,7 @@
  import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  background-color: var(--secondary-colour);
+  background-color: var($secondary-colour);
   height: 100vh;
   width: 100%;
 
@@ -66,7 +66,7 @@ export const HeroContainer = styled.div`
       .bars_click {
         font-size: 3rem !important;
         text-decoration: none;
-        color: var(--blue);
+        color: var($blue);
 
         cursor: pointer;
       }

@@ -11,13 +11,13 @@ position: relative;
   align-items: center;
   flex-direction: column;
   position: fixed;
-  background-color: var(--black);
+  background-color: var($black);
   opacity: 0.9;
   top: 0;
   width: 100%;
 
   &.active {
-    background-color: var(--black);
+    background-color: var($black);
     opacity: 0.9;
     height: 70px;
     width: 100%;
@@ -66,15 +66,15 @@ position: relative;
 
     & .navLink {
       &:hover {
-        box-shadow: inset 0 -1.15rem 0 var(--primary-colour-trs);
+        box-shadow: inset 0 -1.15rem 0 var($primary-colour-trs);
       }
     }
     
     & .isActive {
       margin: 1rem 0;
-      box-shadow: inset 0 -2.7rem 0 var(--primary-colour-trs);
+      box-shadow: inset 0 -2.7rem 0 var($primary-colour-trs);
       &:hover {
-        box-shadow: inset 0 -1.15rem 0 var(--primary-colour-trs);
+        box-shadow: inset 0 -1.15rem 0 var($primary-colour-trs);
       }
     }
 

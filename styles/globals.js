@@ -8,14 +8,14 @@ const GlobalStyle = createGlobalStyle
   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
   // Colours
-  --primary-colour: #0E899F;
-  --primary-colour-trs: #0E899F6c;
-  --secondary-colour: #222222;
-  --tertiary-colour: #83B5BA;
+  $primary-colour: #0E899F;
+  $primary-colour-trs: #0E899F6c;
+  $secondary-colour: #222222;
+  $tertiary-colour: #83B5BA;
 
-  --primary-bkg: #EAEAEA;
-  --white: #ffffff;
-  --black: #000000;
+  $primary-bkg: #EAEAEA;
+  $white: #ffffff;
+  $black: #000000;
 }
 
 * {
@@ -38,7 +38,7 @@ a {
   text-transform: uppercase;
   text-decoration: none;
 
-  color: var(--white);
+  color: var($white);
 
   padding: 0px 20px;
 
@@ -50,7 +50,7 @@ a {
 
 h1, h2, h3 {
   text-transform: uppercase;
-  color: var(--white);
+  color: var($white);
 }
 
 h1 {
@@ -68,7 +68,7 @@ h2 {
 h3 {
   font-size: 2.5rem;
   font-weight: 300;
-  color: var(--secondary-colour);
+  color: var($secondary-colour);
 }
 
 p,
@@ -77,7 +77,7 @@ label {
   font-weight: 200;
   letter-spacing: 1px;
 
-  color: var(--secondary-colour);
+  color: var($secondary-colour);
 }
 
 li,
@@ -87,7 +87,7 @@ input {
 }
 
 .white {
-  color: var(--white);
+  color: var($white);
   box-shadow: none;
 }
 
@@ -100,11 +100,11 @@ input {
 }
 
 .blue {
-  color: var(--primary-colour);
+  color: var($primary-colour);
 }
 
 .underline {
-  box-shadow: inset 0 -1.5rem 0 var(--primary-colour-trs);
+  box-shadow: inset 0 -1.5rem 0 var($primary-colour-trs);
 }
 
 .social_icons {
@@ -120,7 +120,7 @@ input {
 
   h2 {
     font-size: 2.5rem;
-    box-shadow: inset 0 -1.6rem 0 var(--primary-colour-trs);
+    box-shadow: inset 0 -1.6rem 0 var($primary-colour-trs);
   }
 
   h3 {
@@ -139,7 +139,7 @@ input {
 
   h2 {
     font-size: 2rem;
-    box-shadow: inset 0 -1.2rem 0 var(--primary-colour-trs);
+    box-shadow: inset 0 -1.2rem 0 var($primary-colour-trs);
   }
 
   h3 {
@@ -158,7 +158,7 @@ input {
 
   h2 {
     font-size: 1.8rem;
-    box-shadow: inset 0 -1rem 0 var(--primary-colour-trs);
+    box-shadow: inset 0 -1rem 0 var($primary-colour-trs);
   }
 
   h3 {
@@ -198,7 +198,7 @@ input {
 @media screen and (max-width: 350px) {
   h2 {
     font-size: 1.8rem;
-    box-shadow: inset 0 -1rem 0 var(--primary-colour-trs);
+    box-shadow: inset 0 -1rem 0 var($primary-colour-trs);
   }
 }
 

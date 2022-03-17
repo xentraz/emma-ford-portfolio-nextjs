@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ExperienceStyle = styled.div`
- background-color: var(--white);
+ background-color: var($white);
  min-height: 50vh;
  width: 90%;
  margin 2vh auto;
@@ -21,7 +21,7 @@ export const ExperienceStyle = styled.div`
       content: '';
       position: absolute;
       width: 9px;
-      background-color: var(--primary-colour);
+      background-color: var($primary-colour);
       top: 0;
       bottom: 0;
       left: 50%;
@@ -35,7 +35,7 @@ export const ExperienceStyle = styled.div`
         list-style: none;
         margin: 0vh 0vw 1vh 0vw;
         i {
-          color: var(--blue);
+          color: var($blue);
           font-size: 1.2rem;
         }
       }
@@ -52,8 +52,8 @@ export const ExperienceStyle = styled.div`
         width: 30px;
         height: 30px;
         right: -20px;
-        background-color: var(--secondary-colour);
-        border: 4px solid var(--primary-colour);
+        background-color: var($secondary-colour);
+        border: 4px solid var($primary-colour);
         top: 50%;
         border-radius: 50%;
         z-index: 1;

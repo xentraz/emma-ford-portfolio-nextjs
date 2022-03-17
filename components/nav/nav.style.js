@@ -35,14 +35,14 @@ export const NavStyle = styled.div`
 
     & .navLink {
       &:hover {
-        box-shadow: inset 0 -1.15rem 0 var(--primary-colour-trs);
+        box-shadow: inset 0 -1.15rem 0 var($primary-colour-trs);
       }
     }
     
     & .isActive {
-      box-shadow: inset 0 -2.7rem 0 var(--primary-colour-trs);
+      box-shadow: inset 0 -2.7rem 0 var($primary-colour-trs);
       &:hover {
-        box-shadow: inset 0 -1.15rem 0 var(--primary-colour-trs);
+        box-shadow: inset 0 -1.15rem 0 var($primary-colour-trs);
       }
     }
   }

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HobbiesStyle = styled.div`
-background-color: var(--primary-bkg);
+background-color: var($primary-bkg);
 
 .hobbies,
 .skills {
@@ -42,7 +42,7 @@ background-color: var(--primary-bkg);
     flex-direction: column;
     align-items: center;
 
-    background-color: var(--secondary-colour);
+    background-color: var($secondary-colour);
 
     &:hover {
     box-shadow: 1px 1px 24px 1px rgba(34, 34, 34, 0.51);
@@ -56,7 +56,7 @@ background-color: var(--primary-bkg);
   .hobbies {
     display: grid;
     grid-template-rows: 1fr 8fr;
-    background-color: var(--light-grey);
+    background-color: var($light-grey);
 
     padding-bottom: 2vh;
   }

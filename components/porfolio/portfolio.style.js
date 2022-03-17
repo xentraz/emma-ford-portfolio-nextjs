@@ -59,7 +59,7 @@ min-height: 40vh;
 
 .project_img .side_img {
   width: 90%;
-  border: 2px solid var(--dark-grey);
+  border: 2px solid var($dark-grey);
   margin: 0vh 0vw 2vh 0vw;
 }
 
@@ -90,7 +90,7 @@ min-height: 40vh;
 }
 
 .r {
-  background-color: var(--light-grey);
+  background-color: var($light-grey);
 }
 
 /* Image Modal */

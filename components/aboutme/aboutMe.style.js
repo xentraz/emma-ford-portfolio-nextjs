@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AboutMeStyle = styled.div`
   height: fit-content;
   margin-bottom: 2vh;
-  background-color: var(--white);
+  background-color: var($white);
 
   & .aboutMe {
     width: 90%;
@@ -45,9 +45,9 @@ export const AboutMeStyle = styled.div`
       overflow:visible;
 
       &-wrapper {
-        box-shadow: 12px -12px 0px 3px var(--secondary-colour);
-        -webkit-box-shadow: 12px -12px 0px 3px var(--secondary-colour);
-        -moz-box-shadow: 12px -12px 0px 3px var(--secondary-colour);
+        box-shadow: 12px -12px 0px 3px var($secondary-colour);
+        -webkit-box-shadow: 12px -12px 0px 3px var($secondary-colour);
+        -moz-box-shadow: 12px -12px 0px 3px var($secondary-colour);
       }
     }
 
