@@ -7,6 +7,45 @@ const PortfolioContent = () => {
     <PortfolioStyle>
     <div className="project_list">
       <div className="project">
+        <div className="project_headingL">
+          <h2 className="static">Project Exam 2022</h2>
+        </div>
+        <div className="project_img">
+          <div className="main_img img">
+            <Image 
+            src="/img/ProjectExam22_3.png"
+            alt="NEEDED"
+            height="400px"
+            width="650px"
+            layout="responsive"
+            />
+          </div>
+          <div className="side_img img top">
+            <Image  
+            src="/img/ProjectExam22_2.png" 
+            alt="NEEDED"
+            height="200px"
+            width="315px"
+            layout="responsive"
+            />
+          </div>
+          <div className="side_img img bottom">
+            <Image 
+            src="/img/ProjectExam22_1.png" 
+            alt="NEEDED"
+            height="200px"
+            width="315px"
+            layout="responsive"
+            />
+          </div>
+        </div>
+        <div className="project_dsc">
+          <p>The objective of this assignment was to create a hotel booking website for a new company in Bergen. The website needed to use data from an API that we had to creatre ourselves and the website needed to display all the information from the API on the website. It also needed an enquiry page where you can send enquiries, a contact page so you could send messages and an admin page where you could see, edit and delete all hotels, enquries and contact messages.</p>
+          <a href="https://holidaze-project-exam-et.netlify.app/" className="project_link grey">Go to website</a>
+          <a href="https://github.com/xentraz/project-exam-2022-emma-ford" className="project_link grey">Go to repo</a>
+        </div>
+      </div>
+      <div className="project">
         <div className="project_headingR">
           <h2 className="static">Semester Project</h2>
         </div>
@@ -42,6 +81,7 @@ const PortfolioContent = () => {
         <div className="project_dsc">
           <p>The objective of this assignment was to create an ecommerce website of our choosing. The website was to connect to an API that we created ourselves. <br></br> The API needed to include specific details such as title, an image and description etc. After connecting to the API we had to create a login portal where you could add, edit and create new products which would be changed in the API. We also needed to be able to add all the products to a cart using localstorage and then remove the items from localstorage if the item was deleted from the cart.</p>
           <a href="https://emmastravelblog.netlify.app/" className="project_link grey">Go to website</a>
+          <a href="https://github.com/Noroff-Fagskole/semester-project-xentraz" className="project_link grey">Go to repo</a>
         </div>
       </div>
       <div className="project">
@@ -80,6 +120,7 @@ const PortfolioContent = () => {
         <div className="project_dsc">
           <p>The objective of this assignment was to create a blog website with the topic of your choosing. The website needed to include a home page, a blog specific page, an about me page and a contact page. The blog specific page needed to use an API call from a word press website we had set up prior to making the website. The contact page needed a contact form with a validation process using javascript. <br></br> Won Diamond award for best project.</p>
           <a href="https://emmastravelblog.netlify.app/" className="project_link grey">Go to website</a>
+          <a href="https://github.com/xentraz/project-exam-1-emmaford" className="project_link grey">Go to repo</a>
         </div>
       </div>
       <div className="project r">
@@ -118,6 +159,7 @@ const PortfolioContent = () => {
         <div className="project_dsc">
           <p>The objective of this assignment was to create a website for different charities, where you could choose whichever charity you wanted, the amount of money you wanted to donate and how frequently you wanted to donate. The list of charities were fetched using an API call.</p>
           <a href="https://clever-visvesvaraya-aa5b16.netlify.app/" className="project_link grey">Go to website</a>
+          <a href="https://github.com/Noroff-Fagskole/osl-interaction_design_ca-xentraz" className="project_link grey">Go to repo</a>
         </div>
       </div>
       <div className="project">
@@ -157,6 +199,7 @@ const PortfolioContent = () => {
         <div className="project_dsc">
           <p>The objective of this hackathon was to create a website that listed all the different characters from the show Rick & Morty. The list was needed to display whether the different characters were dead, alive or status unknown. The objective was to create this website to look like an extension of Netflix, and needed to be completed within 24 hours. I came 2nd place.</p>
           <a href="https://friendly-allen-8d7c65.netlify.app" className="project_link grey">Go to website</a>
+          <a href="https://github.com/xentraz/rick-and-morty-hackathon" className="project_link grey">Go to repo</a>
         </div>
       </div>
       <div className="project r">
@@ -195,6 +238,7 @@ const PortfolioContent = () => {
         <div className="project_dsc">
           <p>The objective of this assignment was to create a website for a childrens museum. The website needed to include information on special events, the different exhibitions they have available, a booking page, a contact page and an explore page. As the target audience was kinds and families with children aged 5-15, the website was supposed to reflect that.</p>
           <a href="https://friendly-allen-8d7c65.netlify.app" className="project_link grey">Go to website</a>
+          <a href="https://github.com/Noroff-Fagskole/oslo-feu-sem-project1-xentraz" className="project_link grey">Go to repo</a>
         </div>
       </div>
       <div className="project">
@@ -233,6 +277,7 @@ const PortfolioContent = () => {
         <div className="project_dsc">
           <p>The objective of this assignment was to create a website for a game buying service where you could buy and sell games. The website needed to include a game browsing page (sorted by game type), a profile and login page, a checkout page and a checkout complete page.<br></br><span>NB! The API used to get the list of games is no longer available and therefore the browse page is empty.</span></p>
           <a href="https://affectionate-easley-709bde.netlify.app" className="project_link grey">Go to website</a>
+          <a href="https://github.com/xentraz/2020-11-04_htmlcss_ca_Emma-Ford" className="project_link grey">Go to repo</a>
         </div>
       </div>
      </div>

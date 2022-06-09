@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="wrapper">
       <div className="wrapper-contact">
         <h3 className="white underline">Contact Me</h3>
-        <p className="white">Emma.thurmer@gmail.com</p>
+        <p className="white">emailatrequest@gmail.com</p>
         <p className="white">+47 40000000</p>
       </div>
       <div className="wrapper-copyright">
